@@ -25,6 +25,7 @@ class TasksController: UITableViewController {
         tableView.tableFooterView = UIView()
     }
     
+    
     @IBAction func addTask(_ sender: UIBarButtonItem) {
         
         let alertController = UIAlertController(title: "Add Task", message: nil, preferredStyle: .alert)
@@ -111,8 +112,8 @@ extension TasksController {
             completionHandler(true)
         }
         
-        deleteAction.image = #imageLiteral(resourceName: "delete")
-        deleteAction.backgroundColor = #colorLiteral(red: 0.8784313725, green: 0.4901960784, blue: 0.4823529412, alpha: 1)
+        deleteAction.image = #imageLiteral(resourceName: "delete.png")
+        deleteAction.backgroundColor = #colorLiteral(red: 0.6000000238, green: 0.6000000238, blue: 0.6000000238, alpha: 1)
         
         return UISwipeActionsConfiguration(actions: [deleteAction])
     }
@@ -135,8 +136,9 @@ extension TasksController {
             completionHandler(true)
         }
         
-        doneAction.image = #imageLiteral(resourceName: "done")
-        doneAction.backgroundColor = #colorLiteral(red: 0.231372549, green: 0.7411764706, blue: 0.6509803922, alpha: 1)
+        doneAction.title = "Done"
+        //doneAction.image = #imageLiteral(resourceName: "done")
+        doneAction.backgroundColor = #colorLiteral(red: 0, green: 0.7422088981, blue: 0.6550563574, alpha: 1)
         
         return indexPath.section == 0 ? UISwipeActionsConfiguration(actions: [doneAction]) : nil
     }

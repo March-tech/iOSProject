@@ -32,6 +32,9 @@
                     <navigationItem key="navigationItem" title="Taskly" largeTitleDisplayMode="always" id="sfn-bL-lsO">
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="d6x-UM-Cqf">
                             <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <connections>
+                                <action selector="addTask:" destination="Q1X-5F-T5x" id="ktb-CR-Fhj"/>
+                            </connections>
                         </barButtonItem>
                     </navigationItem>
                 </tableViewController>

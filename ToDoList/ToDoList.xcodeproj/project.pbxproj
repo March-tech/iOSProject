@@ -15,7 +15,6 @@
 		C1803F23247D28A100CD954E /* TasksController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1803F1A247D28A100CD954E /* TasksController.swift */; };
 		C1803F24247D28A100CD954E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1803F1B247D28A100CD954E /* LaunchScreen.storyboard */; };
 		C1E43F3B247D4DA800EF7360 /* TasksUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E43F3A247D4DA800EF7360 /* TasksUtility.swift */; };
-		C1E43F3F247D54F700EF7360 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C1E43F3E247D54F700EF7360 /* Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -133,7 +132,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C1E43F3F247D54F700EF7360 /* Info.plist in Resources */,
 				C1803F24247D28A100CD954E /* LaunchScreen.storyboard in Resources */,
 				C1803F1E247D28A100CD954E /* Assets.xcassets in Resources */,
 				C1803F1C247D28A100CD954E /* Main.storyboard in Resources */,
